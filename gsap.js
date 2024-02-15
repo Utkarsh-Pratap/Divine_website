@@ -13,3 +13,8 @@ const imageContainer = document.getElementById('imageContainer');
       textHeading.innerHTML = `<p>${imageContent[currentImageIndex].heading}</p>`;
       textContent.innerHTML = `<p>${imageContent[currentImageIndex].content}</p>`;
     });
+
+
+
+
+    
