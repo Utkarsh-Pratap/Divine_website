@@ -26,11 +26,7 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(
-      38,
-      94,
-      250
-    ); /* Set the color of the scrollbar thumb */
+    background-color: rgb(38,94,250); /* Set the color of the scrollbar thumb */
     border-radius: 4px; /* Optional: Add rounded corners to the thumb */
   }
 
@@ -101,7 +97,7 @@ body {
       height: 50px;
       width: 200px;
       color: var(--primary-white);
-      margin: 1.2rem 0 0 0;
+      margin: 4rem 0 0 0;
       font-size: 1rem;
       cursor: pointer;
       transition: all 0.3s ease;
@@ -227,7 +223,6 @@ body {
   width: 100%;
   position: relative;
 
-
   .project-page {
     display: flex;
     width: 100%;
@@ -267,26 +262,26 @@ body {
   }
 }
 
-.testimonals-section{
-  margin:  0 auto;
+.testimonals-section {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   background: linear-gradient(to right, #0a021f, #000000);
-  .testimonal{
+  .testimonal {
     display: flex;
     width: 100%;
     max-width: 1700px;
     justify-content: center;
 
-    .testimonals-heading{
-       width: 80%; 
-      h1{
+    .testimonals-heading {
+      width: 80%;
+      h1 {
         color: var(--primary-white);
         text-align: center;
         font-weight: 400;
         font-size: 3rem;
       }
-      p{
+      p {
         color: #c3c2c2;
         font-size: 1.2rem;
         margin: 3rem 0 0 0;
@@ -294,67 +289,60 @@ body {
         font-weight: 100;
         text-align: center;
       }
-
-      
     }
-   
   }
 }
 
-
-.testimonal-main{
+.testimonal-main {
   display: flex;
   background: linear-gradient(to right, #0a021f, #000000);
-  justify-content: center;
-  margin: 0 auto;
   position: relative;
-  
-  .slider{
-    display: flex;
-    gap: 2rem;
+  overflow-x: hidden;
+  justify-content: center;
+  .slider {
+    margin: 0 2rem;
   }
-  .testimonal-slider{
-    margin-top:5rem ;
+  .testimonal-slider {
+    margin-top: 5rem;
     width: 900px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.579);
     border-radius: 12px;
     display: block;
-    height: 350px;
+    height: 400px;
     color: #fff;
     border-radius: 20px;
-   
-    .desc{
+
+    .desc {
       margin: 2rem 4rem;
-      p{
+      p {
         font-weight: 100;
         line-height: 1.8rem;
       }
     }
-    .picdiv{
-
+    .picdiv {
       display: flex;
       margin: 2rem 4rem;
       gap: 2rem;
-      .about{
+      .about {
         line-height: 2rem;
       }
-      img{
+      img {
         width: 6rem;
       }
     }
-
   }
 }
-  
- .buttons{
-   background: linear-gradient(to right, #0a021f, #000000);
+
+.buttons {
+  background: linear-gradient(to right, #0a021f, #000000);
   width: 100%;
   padding: 2rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
 
-  .next,.prev{
+  .next,
+  .prev {
     background-color: #0000001e;
     border: 1px solid gray;
     width: 50px;
@@ -363,6 +351,4 @@ body {
     font-size: 2rem;
     border-radius: 50%;
   }
- }
-      
-    
+}
