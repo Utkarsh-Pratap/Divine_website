@@ -171,6 +171,7 @@ body ::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 80%;
 }
 .course-panel .sub-heading h1 {
   color: #fff;
@@ -245,15 +246,18 @@ body ::-webkit-scrollbar-track {
   margin: 0 auto;
   background-color: #000;
   display: flex;
+  justify-content: center;
   height: 600px;
+  width: 100%;
   position: relative;
 }
 .project-section .sideball {
   border-radius: 100%;
-  background: linear-gradient(to right, #150542, #000000);
+  background: linear-gradient(to right, rgba(21, 5, 66, 0.6784313725), #000000);
   filter: blur(50px);
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
+  left: 0;
   z-index: 0;
   position: absolute;
 }
