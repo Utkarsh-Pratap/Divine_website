@@ -267,6 +267,9 @@ body ::-webkit-scrollbar-track {
   gap: 2rem;
   justify-content: center;
 }
+.project-section .project-headings {
+  width: 400px;
+}
 .project-section .project-headings h1 {
   color: var(--primary-white);
   font-weight: 400;
